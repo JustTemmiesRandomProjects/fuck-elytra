@@ -2,16 +2,13 @@
 	"schemaVersion": 1,
 	"id": "jt_fuck_elytra",
 	"version": "${version}",
-	"name": "jt_fuck_elytra",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Eral",
+	"description": "A collection of my other projects, requires Eral-lib",
 	"authors": [
-		"JustTemmie"
+		"Errol",
+		"Eli"
 	],
-	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
-	},
-	"license": "CC0-1.0",
+	"license": "Eral-License",
 	"icon": "assets/jt_fuck_elytra/icon.png",
 	"environment": "*",
 	"entrypoints": {

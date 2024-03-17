@@ -2,8 +2,6 @@ package net.just_temmie.fuck_elytra;
 
 import net.fabricmc.api.ModInitializer;
 
-import net.just_temmie.fuck_elytra.misc.test;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -16,7 +14,5 @@ public class jt_fuck_elytra implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("we ball");
-		test.test();
-
 	}
 }
