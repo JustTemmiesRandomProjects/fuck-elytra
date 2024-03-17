@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "jt_fuck_elytra",
+	"version": "${version}",
+	"name": "jt_fuck_elytra",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"JustTemmie"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/jt_fuck_elytra/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "net.just_temmie.fuck_elytra.jt_fuck_elytra"
+		],
+		"client": [
+			"net.just_temmie.fuck_elytra.Jt_fuck_elytraClient"
+		],
+		"fabric-datagen": [
+			"net.just_temmie.fuck_elytra.jt_fuck_elytraDataGenerator"
+		]
+	},
+	"mixins": [
+		"jt_fuck_elytra.mixins.json",
+		{
+			"config": "jt_fuck_elytra.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"betterend": "*"
+	}
+}
